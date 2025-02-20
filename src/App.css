@@ -13,7 +13,7 @@
   }
 }
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,7 +22,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
 .App-link {
   color: #61dafb;
@@ -41,4 +41,25 @@
   width: 1000px;
   margin: auto;
   color:white;
+}
+.menue{
+  width:60%;
+  text-align: left;
+  left: -100%;
+  position: fixed;
+  height: 100vh;
+  background-color: cadetblue;
+  color:white;
+  transition: 0.8s;
+}
+.menue ul li{
+  list-style: none;
+  padding: 10px 0px;
+}
+.micon{
+  position: absolute;
+  right: 10px;
+}
+.activeMenue{
+  left: 0%;
 }
